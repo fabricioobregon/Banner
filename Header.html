@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<title>Header</title>
+	<style id="applicationStylesheet" type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+			border: none;
+		}
+		#Header {
+			background: #E5E5E5;
+			width: 768px;
+			height: 108px;
+		}
+		.Middle_Background {
+			position: absolute;
+			width: 768px;
+			height: 92px;
+			left: 0px;
+			top: 8px;
+		}
+		.Rectangle_1 {
+			position: absolute;
+			width: 768px;
+			height: 9px;
+			left: 0px;
+			top: 0px;
+		}
+		.Rectangle_2 {
+			position: absolute;
+			width: 768px;
+			height: 9px;
+			left: 0px;
+			top: 99px;
+			opacity: 0.79;
+		}
+		.Xibo-container{
+			display: flex;
+		}
+		.Xibo-container .Xibo-box{
+			width: 33%;
+			height: 108px;
+		}
+		.icon {
+			position: absolute;
+			width: 27px;
+			height: 15px;
+			left: 9px;
+			top: 81px;
+		}
+		#Dream {
+			position: absolute;
+			left: 8px;
+			top: 58px;
+			text-align: left;
+			font-family: GT Walsheim;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 14px;
+			color: rgba(242,241,241,1);
+		}
+		#Phone {
+			position: absolute;
+			left: 37px;
+			top: 79px;
+			text-align: left;
+			font-family: GT Walsheim;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 14px;
+			color: rgba(242,241,241,1);
+		}
+		#Princeton {
+			position: absolute;
+			left: 264px;
+			top: 2px;
+			text-align: center;
+			font-family: GT Walsheim;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 56px;
+			color: rgba(242,241,241,1);
+		}
+		#Towers {
+			position: absolute;
+			left: 324px;
+			top: 50px;
+			text-align: right;
+			font-family: GT Walsheim;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 40px;
+			color: rgba(242,241,241,1);
+		}
+		#Clock {
+			position: absolute;
+
+			top: 18px;
+			text-align: right;
+			font-family: Trebuchet MS;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 30px;
+			color: rgba(242,241,241,1);
+		}
+		#Week_Day {
+			position: absolute;
+			/*left: 573px;*/
+			top: 53px;
+			text-align: right;
+			font-family: Trebuchet MS;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 30px;
+			color: rgba(242,241,241,1);
+		}
+	</style>
+</head>
+
+<body>
+<div id="Header" class="">
+
+	<svg class="Rectangle_1">
+		<rect fill="rgba(14,14,14,1)"  width="768" height="9">
+		</rect>
+	</svg>
+	<svg class="Middle_Background">
+		<rect fill="rgba(43,42,42,1)"  width="768" height="92">
+		</rect>
+	</svg>
+	<svg class="Rectangle_2">
+		<rect fill="rgba(68,56,56,1)"  width="768" height="9">
+		</rect>
+	</svg>
+
+	<div class="Xibo-container">
+		<div class="Xibo-box">
+			<svg class="icon">
+				<pattern elementId="d_cloud_icon_white_A0_Rectangle_2" id="d_cloud_icon_white_A0_Rectangle_2_pattern" x="0" y="0" width="100%" height="100%">
+					<image x="0" y="0" width="100%" height="100%" href="d-cloud_icon_white.png" xlink:href="d-cloud_icon_white.png"></image>
+				</pattern>
+				<rect fill="url(#d_cloud_icon_white_A0_Rectangle_2_pattern)" id="d_cloud_icon_white" rx="0" ry="0" x="0" y="0" width="27" height="15">
+				</rect>
+			</svg>
+			<div id="Dream">
+				<span>Dream Office Manag. Corp.</span>
+			</div>
+			<div id="Phone">
+				<span> 306.665.6120 </span>
+			</div>
+		</div>
+
+		<div class="Xibo-box">
+			<div id="Princeton">
+				<span>Princeton</span>
+			</div>
+			<div id="Towers">
+				<span>Towers</span>
+			</div>
+		</div>
+
+		<div class="Xibo-box">
+			<div id="Clock">
+				<span>10:30</span>
+			</div>
+			<div id="Week_Day">
+				<span>Wednesday,12</span>
+			</div>
+		</div>
+	</div>
+
+</div>
+</body>
+</html>
